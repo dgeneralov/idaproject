@@ -1,0 +1,18 @@
+.filter-menu {
+    position: relative;
+    margin: 10px 16px;
+    flex-basis: 80%;
+    padding: 0;
+    color: #B4B4B4;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.filter-menu::after {
+    content: url(../../images/menu.svg);
+    position: absolute;
+    top: 0px;
+    left: 82px;
+}

@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("SourceSansPro-Bold.ttf") format("ttf"), url("SourceSansPro-Bold.ttf:Zone.Identifier") format("Identifier");
+}
+
+@font-face {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("SourceSansPro-Regular.ttf") format("ttf"), url("SourceSansPro-Regular.ttf:Zone.Identifier") format("Identifier");
+}

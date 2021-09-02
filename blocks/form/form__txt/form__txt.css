@@ -1,0 +1,14 @@
+.form__txt {
+    position: relative;
+    margin: 0;
+    margin-bottom: 4px;
+    color: #49485E;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.form__txt::after {
+    position: absolute;
+    content: url(../../../images/required.svg);
+    top: -7px
+}

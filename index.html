@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="shortcut icon" href="#">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <title>Jun-front-dev-test</title>
+</head>
+
+<body>
+    <div class='root'>
+        <header class="header">
+            <h1 class="tittle">Добавление товара</h1>
+            <div class="menu">
+                <ul class="filter-menu">
+                    <li class="filter-menu__item">По умолчанию</li>
+                </ul>
+
+            </div>
+        </header>
+        <main class="main">
+            <div class="form">
+                <form class="form__container">
+                    <h3 class="form__txt">Наименование товара</h3>
+                    <input class="form__input form__input_title" type="text" placeholder="Введите наименование товара" name="title" value="" minlength="2" maxlength="40" required>
+                    <h3 class="form__txt form__txt_area">Описание товара</h3>
+                    <textarea class="form__input form__input_txt-area" name="subtitle" value="" placeholder="Введите описание товара"></textarea>
+                    <h3 class="form__txt">Ссылка на изображение товараа</h3>
+                    <input class="form__input form__input_link" type="url" value="" name="link" placeholder="Введите ссылку" required>
+                    <h3 class="form__txt">Цена товара</h3>
+                    <input class="form__input form__input_price" type="text" placeholder="Введите цену" value="" name="price" minlength="2" maxlength="40" required>
+                    <button class="form__btn" type="submit">Добавить товар</button>
+                </form>
+            </div>
+
+            <section class="elements">
+                <template class="card">
+                    <div class="elements__element" id="card">
+                        <img class="elements__img" src="" alt="картинка" />
+                        <button class="elements__icon"></button>
+                        <div class="elements__group">
+                            <h3 class="elements__title"></h3>
+                            <p class="elements__subtitle"></p>
+                            <h3 class="elements__price"></h3>
+                           
+                        </div>
+                    </div>
+                </template>
+            </section>
+        </main>
+        <footer class="footer"></footer>
+    </div>
+
+    <script src="./scripts/initial-сards.js"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>

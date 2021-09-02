@@ -1,0 +1,3 @@
+.form__txt_area::after {
+    content: '';
+}

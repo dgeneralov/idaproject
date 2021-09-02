@@ -1,0 +1,20 @@
+.elements__icon {
+    background-image: url(../../../images/remove.png);
+    background-color: rgba(0, 0, 0, 0);
+    background-size: cover;
+    min-width: 32px;
+    min-height: 32px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+.elements__icon:hover {
+    cursor: url(/images/cursor.svg) 2 2, pointer;
+}
+
+
+/* запутался в порядке наложения элементов */

@@ -1,0 +1,11 @@
+.menu {
+    min-width: 121px;
+    max-height: 36px;
+    background-color: #FFFEFB;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.menu:hover {
+    cursor: url(../../images/cursor.svg) 2 2, pointer;
+}
