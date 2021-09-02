@@ -15,6 +15,3 @@
 .elements__icon:hover {
     cursor: url(/images/cursor.svg) 2 2, pointer;
 }
-
-
-/* запутался в порядке наложения элементов */
